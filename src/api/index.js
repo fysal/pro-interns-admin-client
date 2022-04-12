@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: "http://localhost:9800" });
+const API = axios.create({ baseURL: process.env.REACT_APP_BACKEND_ENDPOINT });
 
 export const getAllOpportunities = () => API.get("/api/v1/opportunities/all");
 
