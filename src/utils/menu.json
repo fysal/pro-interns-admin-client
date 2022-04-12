@@ -1,0 +1,30 @@
+[
+      { "name": "Dashboard", "icon": "network_check", "path": "/" },
+      {
+        "name": "Opportunities",
+        "icon": "work_outline",
+        "path": "/admin/opportunities"
+      },
+      {
+        "name": "Applications",
+        "icon": "open_in_new",
+        "path": "/admin/applications"
+      },
+      { "name": "Users", "icon": "people", "path": "/admin/users" },
+      { "name": "Employers", "icon": "supervisor_account", "path": "/admin/employers" },
+      { "name": "Interns", "icon": "face", "path": "/admin/interns" },
+      { "name": "Interviews", "icon": "check_box", "path": "/admin/interviews" },
+      {
+        "name": "Shortlists",
+        "icon": "groups",
+        "path": "/admin/shortlists"
+      },
+      { "name": "Packages", "icon": "paid", "path": "/admin/packages" },
+      {
+        "name": "Request callbacks",
+        "icon": "headset_mic",
+        "path": "/admin/request-callback"
+      },
+      { "name": "Partners", "icon": "handshake", "path": "/admin/partners" },
+      { "name": "Blogs", "icon": "feed", "path": "/admin/blogs" }
+    ]

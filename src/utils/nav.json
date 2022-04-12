@@ -1,0 +1,7 @@
+[
+    { "name": "Dashboard", "path": "/admin/dashboard" },
+    { "name": "Home", "path": "/" },
+    { "name": "Settings", "path": "/admin/settings" },
+    { "name": "Payments", "path": "/admin/princing" },
+    { "name": "Transactions", "path": "/admin/transactions" }
+  ]
