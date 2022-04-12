@@ -1,15 +1,21 @@
-import React from "react";
-import { useSelector } from "react-redux";
+import React, { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import BorderSpinnerLoader from "../loaders/BorderSpinner.loader";
 import NoResultWiget from "./NoResult.widget";
 import { Avatar } from "@material-ui/core";
 import Moment from "react-moment";
+import { getAllInterviews } from "../../actions/interviews.actions";
 
 const InterviewsLatestWidget = () => {
+    const dispatch = useDispatch();
   const interviews = useSelector((state) =>
     state.interviewsState.pending?.slice(0, 10)
   );
+
+  useEffect(() => {
+      if(!interviews) dispatch(getAllInterviews());
+  },[])
 
   console.log(interviews);
   return (
